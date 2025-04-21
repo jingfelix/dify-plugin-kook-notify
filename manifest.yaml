@@ -1,14 +1,14 @@
 version: 0.0.1
 type: plugin
 author: jingfelix
-name: dify-plugin-pdm-template
+name: kook-notify
 label:
-  en_US: dify-plugin-pdm-template
-  ja_JP: dify-plugin-pdm-template
-  zh_Hans: dify-plugin-pdm-template
-  pt_BR: dify-plugin-pdm-template
+  en_US: kook-notify
+  ja_JP: kook-notify
+  zh_Hans: kook-notify
+  pt_BR: kook-notify
 description:
-  en_US: A Dify plugin template with pdm
+  en_US: A Dify plugin that can send message to Kook channel.
   ja_JP: A Dify plugin template with pdm
   zh_Hans: A Dify plugin template with pdm
   pt_BR: A Dify plugin template with pdm
@@ -18,7 +18,7 @@ resource:
   permission: {}
 plugins:
   tools:
-    - provider/dify-plugin-pdm-template.yaml
+    - provider/kook.yaml
 meta:
   version: 0.0.1
   arch:

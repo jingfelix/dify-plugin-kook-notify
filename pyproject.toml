@@ -1,12 +1,13 @@
 [project]
-name = "dify-plugin-pdm-template"
+name = "dify-plugin-kook-notify"
 version = "0.0.1"
-description = "Default template for PDM package"
+description = "A Dify plugin that can send message to Kook channel."
 authors = [
     {name = "jingfelix", email = "jingfelix@outlook.com"},
 ]
 dependencies = [
     "dify-plugin~=0.0.1b72",
+    "khl-py>=0.3.17",
 ]
 requires-python = ">=3.12"
 readme = "README.md"
