@@ -9,9 +9,9 @@ label:
   pt_BR: kook-notify
 description:
   en_US: A Dify plugin that can send message to Kook channel.
-  ja_JP: A Dify plugin template with pdm
-  zh_Hans: A Dify plugin template with pdm
-  pt_BR: A Dify plugin template with pdm
+  ja_JP: Kookチャンネルにメッセージを送信できるDifyプラグイン。
+  zh_Hans: 将消息通知发送到 Kook 频道的 Dify 插件。
+  pt_BR: Um plugin Dify que pode enviar mensagens para o canal Kook.
 icon: icon.svg
 resource:
   memory: 268435456
@@ -19,6 +19,8 @@ resource:
 plugins:
   tools:
     - provider/kook.yaml
+tags:
+  - utilities
 meta:
   version: 0.0.1
   arch:

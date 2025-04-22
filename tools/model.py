@@ -8,7 +8,7 @@ KOOK_API_URL = "https://www.kookapp.cn/api/v3"
 class MsgType(Enum):
     Warning = ("Warning", "#FFA500")  # Orange
     Error = ("Error", "#FF0000")  # Red
-    Info = ("Info", "#0000FF")  # Blue
+    Info = ("Info", "#145AEF")  # Blue
     Success = ("Success", "#008000")  # Green
 
     def __init__(self, value: str, color: str):

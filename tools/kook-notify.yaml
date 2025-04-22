@@ -1,16 +1,16 @@
 identity:
-  name: dify-plugin-pdm-template
+  name: kook-notify
   author: jingfelix
   label:
-    en_US: dify-plugin-pdm-template
-    zh_Hans: dify-plugin-pdm-template
-    pt_BR: dify-plugin-pdm-template
+    en_US: Send Kook Notification
+    zh_Hans: 发送 Kook 通知
+    pt_BR: Enviar Notificação Kook
 description:
   human:
-    en_US: A Dify plugin template with pdm
-    zh_Hans: A Dify plugin template with pdm
-    pt_BR: A Dify plugin template with pdm
-  llm: A Dify plugin template with pdm
+    en_US: Sends a notification message to a specified Kook channel.
+    zh_Hans: 发送通知消息到指定的 Kook 频道。
+    pt_BR: Envia uma mensagem de notificação para um canal Kook especificado.
+  llm: Sends a notification message to a specified Kook channel using the provided Kook Bot token and channel ID. You can specify the title, content, and type (Warning, Error, Info, Success) of the notification.
 parameters:
   - name: title
     type: string
